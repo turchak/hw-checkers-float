@@ -48,7 +48,18 @@ body {
 .row:nth-child(even) .cell:nth-child(odd) {
   background: white;
 }
-.inside-item {
+
+.item-first-team {
+  position: relative;
+  width: 5%;
+  height: 10%;
+  border-radius: 50%;
+  background: #ff2525;
+  float: left;
+  margin: 3.75%;
+}
+.item-first-team::before {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -60,15 +71,6 @@ body {
   height: 60%;
   border-radius: 50%;
 }
-.item-first-team {
-  position: relative;
-  width: 5%;
-  height: 10%;
-  border-radius: 50%;
-  background: #ff2525;
-  float: left;
-  margin: 3.75%;
-}
 .item-second-team {
   position: relative;
   width: 5%;
@@ -78,6 +80,19 @@ body {
   z-index: 2;
   margin: 3.75%;
   float: left;
+}
+.item-second-team::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
 }
 .first-team {
   height: 50vmin;
