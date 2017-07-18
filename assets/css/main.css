@@ -9,10 +9,8 @@ body {
   right: 0;
   bottom: 0;
   margin: auto;
-  max-width: 800px;
-  max-height: 800px;
-  width: 100vmin;
-  height: 100vmin;
+  max-width: 100vmin;
+  max-height: 100vmin;
 }
 
 .container {
