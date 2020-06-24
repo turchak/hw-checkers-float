@@ -13,6 +13,11 @@ body {
   max-height: 100vmin;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   position: relative;
   height: 0;
